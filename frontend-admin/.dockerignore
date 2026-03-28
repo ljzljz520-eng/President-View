@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Test files
+tests
+coverage
+playwright-report
+test-results
+
+# Development files
+*.log
+.git
+.gitignore
+*.md
+.vscode
+.idea
+
+# Build artifacts (will be rebuilt in Docker)
+dist
+
+# Local environment files (keep .env and .env.production)
+.env.local
+.env.*.local
